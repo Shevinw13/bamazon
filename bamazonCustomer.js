@@ -44,12 +44,12 @@ inquirer.prompt([
 	{
 	name: "id",	
 	type: "input",
-	message: "Hello. Thank you for visiting Melissa's Fine Jewelry. Please select which item you wish to purchase."
+	message: "Hello. Thank you for visiting Shevin's Shoe Company. Please select which shoe you wish to purchase."
 },{
 	// ask/prompt how many units of the product they would like to buy.
 	name: "quantity",
 	type: "input",
-	message: "How many would you like?"
+	message: "How many pairs would you like?"
 	
 
 }]).then(function (answers) {
